@@ -183,7 +183,7 @@ All raw output is in [`data/`](data/).
 | Internal linking | **C** | 111 sitemap URLs have no internal links pointing to them. 6 article links return 404. Sitewide links point to author pages that redirect to the homepage. |
 | Content and E-E-A-T | **C+** | A large, mostly solid library (quality scores 68–83 of 100), but output has collapsed in 2026, one post is out of date, and authors are first-name-only with no author pages. |
 | Performance (mobile) | **D** | Performance 43–49, LCP 7.6–24.6 s, Total Blocking Time (TBT) 600–710 ms, 3.9–5.3 MB per page. CLS is fine. |
-| AI search readiness | **B** | All AI crawlers are allowed and content is server-rendered. There is no `llms.txt`, and entity data is thin. |
+| AI search visibility | **C** | Technically ready: all AI crawlers are allowed and content is server-rendered. But ChatGPT named ESHYFT in only 2 of 5 questions about per diem apps (Perplexity 4 of 5, Claude 5 of 5), because ESHYFT is missing from the roundup articles AI relies on. |
 
 ---
 
