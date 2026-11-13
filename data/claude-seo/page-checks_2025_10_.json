@@ -1,0 +1,145 @@
+{
+  "url": "https://eshyft.com/2025/10/",
+  "source": "url",
+  "status_code": 200,
+  "headers_available": true,
+  "facts": {
+    "title": "October 2025 - ESHYFT",
+    "title_length": 21,
+    "title_count": 1,
+    "meta_description": "",
+    "meta_description_length": 0,
+    "h1": [
+      "Monthly Archives: October 2025"
+    ],
+    "h1_count": 1,
+    "heading_level_skips": 0,
+    "template_heading_level_skips": 1,
+    "canonical": null,
+    "canonical_status": "missing",
+    "canonical_note": null,
+    "meta_robots": "robots: noindex, follow",
+    "x_robots_tag": null,
+    "x_robots_other_agents": [],
+    "hreflang_count": 0,
+    "lang": "en-US",
+    "has_doctype": true,
+    "meta_charset": "utf-8",
+    "header_charset": "utf-8",
+    "has_viewport": true,
+    "images": {
+      "total": 15,
+      "missing_alt": 1,
+      "empty_alt": 8,
+      "missing_dimensions": 0,
+      "first_image_lazy": false
+    },
+    "links": {
+      "total": 120,
+      "without_text": 10,
+      "generic_anchor": 0,
+      "http_on_https": 0
+    },
+    "mixed_content": 0,
+    "url": {
+      "length": 27,
+      "query_params": []
+    },
+    "html_bytes": 265523,
+    "dom": {
+      "nodes": 1021,
+      "max_depth": 29,
+      "max_children": 87,
+      "widest_element": "body"
+    },
+    "open_graph": {
+      "og:locale": "en_US",
+      "og:type": "website",
+      "og:title": "October 2025 - ESHYFT",
+      "og:url": "https://eshyft.com/2025/10/",
+      "og:site_name": "ESHYFT"
+    },
+    "jsonld_blocks": 1,
+    "jsonld_invalid": 0,
+    "word_count": 753,
+    "words_measured": true,
+    "title_relevance": 0.5,
+    "description_relevance": null
+  },
+  "findings": [
+    {
+      "id": "noindex",
+      "severity": "Critical",
+      "message": "A robots meta tag asks search engines not to index this page. Confirm this is intended.",
+      "evidence": "meta robots: noindex, follow"
+    },
+    {
+      "id": "title-too-short",
+      "severity": "Medium",
+      "message": "The title is shorter than 30 characters. A very short title rarely describes the page well enough to earn a click. This is a heuristic, not a search engine rule.",
+      "evidence": "21 characters: October 2025 - ESHYFT"
+    },
+    {
+      "id": "missing-meta-description",
+      "severity": "Medium",
+      "message": "The page has no meta description. Search engines write their own snippet when none is given.",
+      "evidence": "no <meta name=\"description\"> with content"
+    },
+    {
+      "id": "missing-canonical",
+      "severity": "Medium",
+      "message": "The page has no canonical link. Search engines then choose the preferred URL themselves.",
+      "evidence": "no <link rel=\"canonical\"> with an href"
+    },
+    {
+      "id": "images-missing-alt",
+      "severity": "Medium",
+      "message": "Some images have no alt attribute. Screen readers and image search rely on alt text. An empty alt is correct for decorative images.",
+      "evidence": "1 of 15 images: https://www.facebook.com/tr?id=3104157466267899&ev=PageVi...",
+      "count": 1
+    },
+    {
+      "id": "links-without-text",
+      "severity": "Medium",
+      "message": "Some links have no accessible text: no link text, no label and no image alt text.",
+      "evidence": "10 link(s): https://eshyft.com, /nurses/, /schedule-a-demo/, https://eshyft.com, https://eshyft.com (+5 more)",
+      "count": 10
+    },
+    {
+      "id": "wide-dom-node",
+      "severity": "Low",
+      "message": "One element has more than 60 direct children, which is slow to lay out (Lighthouse guidance).",
+      "evidence": "<body> has 87 direct children"
+    },
+    {
+      "id": "missing-og-image",
+      "severity": "Low",
+      "message": "The page has no og:image, so shared links show no preview image.",
+      "evidence": "og:title is present, og:image is not"
+    }
+  ],
+  "not_checked": [],
+  "thresholds": {
+    "title_min_chars": 30,
+    "title_max_chars": 60,
+    "meta_description_min_chars": 120,
+    "meta_description_max_chars": 160,
+    "url_max_chars": 100,
+    "html_max_bytes": 2000000,
+    "thin_content_min_words": 200,
+    "dom_max_depth": 32,
+    "dom_max_children": 60,
+    "title_relevance_min": 0.3,
+    "description_relevance_min": 0.2,
+    "relevance_min_words": 50,
+    "evidence_max_chars": 200
+  },
+  "summary": {
+    "Critical": 1,
+    "High": 0,
+    "Medium": 5,
+    "Low": 2,
+    "total": 8,
+    "checks_run": 47
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://eshyft.com/nurse-to-patient-ratios/",
+  "source": "url",
+  "status_code": 200,
+  "headers_available": true,
+  "facts": {
+    "title": "Nurse-to-Patient Ratios: Importance of Patient Safety & Nurse Job Satisfaction - ESHYFT",
+    "title_length": 87,
+    "title_count": 1,
+    "meta_description": "Discover the power of nurse-to-patient ratios! Enhance patient safety and nurse job satisfaction. Find out more now.",
+    "meta_description_length": 116,
+    "h1": [
+      "Blog",
+      "Nurse-to-Patient Ratios: Importance of Patient Safety & Nurse Job Satisfaction"
+    ],
+    "h1_count": 2,
+    "heading_level_skips": 0,
+    "template_heading_level_skips": 0,
+    "canonical": "https://eshyft.com/nurse-to-patient-ratios/",
+    "canonical_status": "self",
+    "canonical_note": null,
+    "meta_robots": "robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "x_robots_tag": null,
+    "x_robots_other_agents": [],
+    "hreflang_count": 0,
+    "lang": "en-US",
+    "has_doctype": true,
+    "meta_charset": "utf-8",
+    "header_charset": "utf-8",
+    "has_viewport": true,
+    "images": {
+      "total": 12,
+      "missing_alt": 1,
+      "empty_alt": 8,
+      "missing_dimensions": 1,
+      "first_image_lazy": true
+    },
+    "links": {
+      "total": 67,
+      "without_text": 10,
+      "generic_anchor": 0,
+      "http_on_https": 0
+    },
+    "mixed_content": 0,
+    "url": {
+      "length": 43,
+      "query_params": []
+    },
+    "html_bytes": 297664,
+    "dom": {
+      "nodes": 1015,
+      "max_depth": 29,
+      "max_children": 95,
+      "widest_element": "body"
+    },
+    "open_graph": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Nurse-to-Patient Ratios: Importance of Patient Safety & Nurse Job Satisfaction - ESHYFT",
+      "og:description": "Discover the power of nurse-to-patient ratios! Enhance patient safety and nurse job satisfaction. Find out more now.",
+      "og:url": "https://eshyft.com/nurse-to-patient-ratios/",
+      "og:site_name": "ESHYFT",
+      "og:image": "https://eshyft.com/wp-content/uploads/2023/12/Nurse-to-Patient-Ratios.jpg",
+      "og:image:width": "626",
+      "og:image:height": "450",
+      "og:image:type": "image/jpeg"
+    },
+    "jsonld_blocks": 1,
+    "jsonld_invalid": 0,
+    "word_count": 2294,
+    "words_measured": true,
+    "title_relevance": 1.0,
+    "description_relevance": 0.73
+  },
+  "findings": [
+    {
+      "id": "title-too-long",
+      "severity": "Medium",
+      "message": "The title is longer than 60 characters and may be truncated in results. This is a display heuristic, not a published search engine limit.",
+      "evidence": "87 characters: Nurse-to-Patient Ratios: Importance of Patient Safety & Nurse Job Satisfaction - ESHYFT"
+    },
+    {
+      "id": "images-missing-alt",
+      "severity": "Medium",
+      "message": "Some images have no alt attribute. Screen readers and image search rely on alt text. An empty alt is correct for decorative images.",
+      "evidence": "1 of 12 images: https://www.facebook.com/tr?id=3104157466267899&ev=PageVi...",
+      "count": 1
+    },
+    {
+      "id": "images-missing-dimensions",
+      "severity": "Medium",
+      "message": "Some images have no width and height attributes, which lets the layout shift while they load.",
+      "evidence": "1 of 12 images: https://eshyft.com/wp-content/uploads/2023/12/image-2-102...",
+      "count": 1
+    },
+    {
+      "id": "first-image-lazy-loaded",
+      "severity": "Medium",
+      "message": "The first image in the main content is lazy loaded. It is often the largest paint, and lazy loading delays it.",
+      "evidence": "loading=\"lazy\" on https://eshyft.com/wp-content/uploads/2023/12/Nurse-to-Patient-Ratios.jpg"
+    },
+    {
+      "id": "links-without-text",
+      "severity": "Medium",
+      "message": "Some links have no accessible text: no link text, no label and no image alt text.",
+      "evidence": "10 link(s): https://eshyft.com, /nurses/, /schedule-a-demo/, https://eshyft.com, https://eshyft.com (+5 more)",
+      "count": 10
+    },
+    {
+      "id": "multiple-h1",
+      "severity": "Low",
+      "message": "The page has more than one H1. Google says there is no ideal number of headings, so this does not affect Search on its own. Check that the most prominent heading names the page.",
+      "evidence": "2 H1 headings: Blog, Nurse-to-Patient Ratios: Importance of Patient Safety & N...",
+      "count": 2
+    },
+    {
+      "id": "wide-dom-node",
+      "severity": "Low",
+      "message": "One element has more than 60 direct children, which is slow to lay out (Lighthouse guidance).",
+      "evidence": "<body> has 95 direct children"
+    }
+  ],
+  "not_checked": [],
+  "thresholds": {
+    "title_min_chars": 30,
+    "title_max_chars": 60,
+    "meta_description_min_chars": 120,
+    "meta_description_max_chars": 160,
+    "url_max_chars": 100,
+    "html_max_bytes": 2000000,
+    "thin_content_min_words": 200,
+    "dom_max_depth": 32,
+    "dom_max_children": 60,
+    "title_relevance_min": 0.3,
+    "description_relevance_min": 0.2,
+    "relevance_min_words": 50,
+    "evidence_max_chars": 200
+  },
+  "summary": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 5,
+    "Low": 2,
+    "total": 7,
+    "checks_run": 47
+  }
+}

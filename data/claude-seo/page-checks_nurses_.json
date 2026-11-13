@@ -1,0 +1,145 @@
+{
+  "url": "https://eshyft.com/nurses/",
+  "source": "url",
+  "status_code": 200,
+  "headers_available": true,
+  "facts": {
+    "title": "Nurses - ESHYFT",
+    "title_length": 15,
+    "title_count": 1,
+    "meta_description": "",
+    "meta_description_length": 0,
+    "h1": [],
+    "h1_count": 0,
+    "heading_level_skips": 4,
+    "template_heading_level_skips": 0,
+    "canonical": "https://eshyft.com/nurses/",
+    "canonical_status": "self",
+    "canonical_note": null,
+    "meta_robots": "robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "x_robots_tag": null,
+    "x_robots_other_agents": [],
+    "hreflang_count": 0,
+    "lang": "en-US",
+    "has_doctype": true,
+    "meta_charset": "utf-8",
+    "header_charset": "utf-8",
+    "has_viewport": true,
+    "images": {
+      "total": 22,
+      "missing_alt": 1,
+      "empty_alt": 21,
+      "missing_dimensions": 0,
+      "first_image_lazy": false
+    },
+    "links": {
+      "total": 84,
+      "without_text": 14,
+      "generic_anchor": 0,
+      "http_on_https": 0
+    },
+    "mixed_content": 0,
+    "url": {
+      "length": 26,
+      "query_params": []
+    },
+    "html_bytes": 320136,
+    "dom": {
+      "nodes": 1274,
+      "max_depth": 29,
+      "max_children": 91,
+      "widest_element": "body"
+    },
+    "open_graph": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Nurses - ESHYFT",
+      "og:description": "ESHYFT FOR NURSes Work when you want. Get paid when you\u2019re done. Install ESHYFT to find nearby shifts today and see your earnings in your account the moment you clock out. Get the ESHYFT app Work t...",
+      "og:url": "https://eshyft.com/nurses/",
+      "og:site_name": "ESHYFT"
+    },
+    "jsonld_blocks": 1,
+    "jsonld_invalid": 0,
+    "word_count": 527,
+    "words_measured": true,
+    "title_relevance": 1.0,
+    "description_relevance": null
+  },
+  "findings": [
+    {
+      "id": "title-too-short",
+      "severity": "Medium",
+      "message": "The title is shorter than 30 characters. A very short title rarely describes the page well enough to earn a click. This is a heuristic, not a search engine rule.",
+      "evidence": "15 characters: Nurses - ESHYFT"
+    },
+    {
+      "id": "missing-meta-description",
+      "severity": "Medium",
+      "message": "The page has no meta description. Search engines write their own snippet when none is given.",
+      "evidence": "no <meta name=\"description\"> with content"
+    },
+    {
+      "id": "missing-h1",
+      "severity": "Medium",
+      "message": "No H1 heading was found on the page.",
+      "evidence": "no H1 element with text"
+    },
+    {
+      "id": "images-missing-alt",
+      "severity": "Medium",
+      "message": "Some images have no alt attribute. Screen readers and image search rely on alt text. An empty alt is correct for decorative images.",
+      "evidence": "1 of 22 images: https://www.facebook.com/tr?id=3104157466267899&ev=PageVi...",
+      "count": 1
+    },
+    {
+      "id": "links-without-text",
+      "severity": "Medium",
+      "message": "Some links have no accessible text: no link text, no label and no image alt text.",
+      "evidence": "14 link(s): https://eshyft.com, /nurses/, /schedule-a-demo/, https://eshyft.com, https://icccc.app.link/i25AE1Lp60b (+9 more)",
+      "count": 14
+    },
+    {
+      "id": "heading-level-skip",
+      "severity": "Low",
+      "message": "Heading levels skip inside the main content, for example from H2 to H4. Google Search does not mind heading order, but screen reader users move through a page by heading level.",
+      "evidence": "4 skipped heading level(s) in the main content",
+      "count": 4
+    },
+    {
+      "id": "wide-dom-node",
+      "severity": "Low",
+      "message": "One element has more than 60 direct children, which is slow to lay out (Lighthouse guidance).",
+      "evidence": "<body> has 91 direct children"
+    },
+    {
+      "id": "missing-og-image",
+      "severity": "Low",
+      "message": "The page has no og:image, so shared links show no preview image.",
+      "evidence": "og:title is present, og:image is not"
+    }
+  ],
+  "not_checked": [],
+  "thresholds": {
+    "title_min_chars": 30,
+    "title_max_chars": 60,
+    "meta_description_min_chars": 120,
+    "meta_description_max_chars": 160,
+    "url_max_chars": 100,
+    "html_max_bytes": 2000000,
+    "thin_content_min_words": 200,
+    "dom_max_depth": 32,
+    "dom_max_children": 60,
+    "title_relevance_min": 0.3,
+    "description_relevance_min": 0.2,
+    "relevance_min_words": 50,
+    "evidence_max_chars": 200
+  },
+  "summary": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 5,
+    "Low": 3,
+    "total": 8,
+    "checks_run": 47
+  }
+}

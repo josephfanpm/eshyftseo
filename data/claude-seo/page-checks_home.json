@@ -1,0 +1,151 @@
+{
+  "url": "https://eshyft.com/",
+  "source": "url",
+  "status_code": 200,
+  "headers_available": true,
+  "facts": {
+    "title": "Home - ESHYFT",
+    "title_length": 13,
+    "title_count": 1,
+    "meta_description": "",
+    "meta_description_length": 0,
+    "h1": [
+      "ESHYFT connects CNAs , LPNs , & RNs to per diem shifts at long term care facilities",
+      "ESHYFT connects CNAs , LPNs , & RNs to per diem shifts at long term care facilities"
+    ],
+    "h1_count": 2,
+    "heading_level_skips": 5,
+    "template_heading_level_skips": 0,
+    "canonical": "https://eshyft.com/",
+    "canonical_status": "self",
+    "canonical_note": null,
+    "meta_robots": "robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "x_robots_tag": null,
+    "x_robots_other_agents": [],
+    "hreflang_count": 0,
+    "lang": "en-US",
+    "has_doctype": true,
+    "meta_charset": "utf-8",
+    "header_charset": "utf-8",
+    "has_viewport": true,
+    "images": {
+      "total": 79,
+      "missing_alt": 1,
+      "empty_alt": 48,
+      "missing_dimensions": 30,
+      "first_image_lazy": false
+    },
+    "links": {
+      "total": 86,
+      "without_text": 12,
+      "generic_anchor": 0,
+      "http_on_https": 0
+    },
+    "mixed_content": 0,
+    "url": {
+      "length": 19,
+      "query_params": []
+    },
+    "html_bytes": 331963,
+    "dom": {
+      "nodes": 1361,
+      "max_depth": 30,
+      "max_children": 92,
+      "widest_element": "body"
+    },
+    "open_graph": {
+      "og:locale": "en_US",
+      "og:type": "website",
+      "og:title": "Home - ESHYFT",
+      "og:description": "ESHYFT connects CNAs, LPNs, & RNs to per diem shifts at long term care facilities See why ESHYFT is the top-rated app for per diem nursing shifts. I am a CNA, LPN, or RN I am a facility manager ESH...",
+      "og:url": "https://eshyft.com/",
+      "og:site_name": "ESHYFT",
+      "og:image": "http://eshyft.com/wp-content/uploads/2025/06/Group-1171274696.jpg"
+    },
+    "jsonld_blocks": 1,
+    "jsonld_invalid": 0,
+    "word_count": 496,
+    "words_measured": true,
+    "title_relevance": 0.5,
+    "description_relevance": null
+  },
+  "findings": [
+    {
+      "id": "title-too-short",
+      "severity": "Medium",
+      "message": "The title is shorter than 30 characters. A very short title rarely describes the page well enough to earn a click. This is a heuristic, not a search engine rule.",
+      "evidence": "13 characters: Home - ESHYFT"
+    },
+    {
+      "id": "missing-meta-description",
+      "severity": "Medium",
+      "message": "The page has no meta description. Search engines write their own snippet when none is given.",
+      "evidence": "no <meta name=\"description\"> with content"
+    },
+    {
+      "id": "images-missing-alt",
+      "severity": "Medium",
+      "message": "Some images have no alt attribute. Screen readers and image search rely on alt text. An empty alt is correct for decorative images.",
+      "evidence": "1 of 79 images: https://www.facebook.com/tr?id=3104157466267899&ev=PageVi...",
+      "count": 1
+    },
+    {
+      "id": "images-missing-dimensions",
+      "severity": "Medium",
+      "message": "Some images have no width and height attributes, which lets the layout shift while they load.",
+      "evidence": "30 of 79 images: https://eshyft.com/wp-content/uploads/2025/06/Alaris.Corp..., https://eshyft.com/wp-content/uploads/2025/06/Alaris.Corp..., https://eshyft.com/wp-content/uploads/2025/06/Alaris.Cor...",
+      "count": 30
+    },
+    {
+      "id": "links-without-text",
+      "severity": "Medium",
+      "message": "Some links have no accessible text: no link text, no label and no image alt text.",
+      "evidence": "12 link(s): https://eshyft.com, /nurses/, /schedule-a-demo/, https://eshyft.com, https://apps.apple.com/us/app/eshyft/id1341456641 (+7 more)",
+      "count": 12
+    },
+    {
+      "id": "multiple-h1",
+      "severity": "Low",
+      "message": "The page has more than one H1. Google says there is no ideal number of headings, so this does not affect Search on its own. Check that the most prominent heading names the page.",
+      "evidence": "2 H1 headings: ESHYFT connects CNAs , LPNs , & RNs to per diem shifts at..., ESHYFT connects CNAs , LPNs , & RNs to per diem shifts at...",
+      "count": 2
+    },
+    {
+      "id": "heading-level-skip",
+      "severity": "Low",
+      "message": "Heading levels skip inside the main content, for example from H2 to H4. Google Search does not mind heading order, but screen reader users move through a page by heading level.",
+      "evidence": "5 skipped heading level(s) in the main content",
+      "count": 5
+    },
+    {
+      "id": "wide-dom-node",
+      "severity": "Low",
+      "message": "One element has more than 60 direct children, which is slow to lay out (Lighthouse guidance).",
+      "evidence": "<body> has 92 direct children"
+    }
+  ],
+  "not_checked": [],
+  "thresholds": {
+    "title_min_chars": 30,
+    "title_max_chars": 60,
+    "meta_description_min_chars": 120,
+    "meta_description_max_chars": 160,
+    "url_max_chars": 100,
+    "html_max_bytes": 2000000,
+    "thin_content_min_words": 200,
+    "dom_max_depth": 32,
+    "dom_max_children": 60,
+    "title_relevance_min": 0.3,
+    "description_relevance_min": 0.2,
+    "relevance_min_words": 50,
+    "evidence_max_chars": 200
+  },
+  "summary": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 5,
+    "Low": 3,
+    "total": 8,
+    "checks_run": 47
+  }
+}

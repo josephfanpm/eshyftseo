@@ -1,0 +1,159 @@
+{
+  "url": "https://eshyft.com",
+  "host": "eshyft.com",
+  "tls": {
+    "host": "eshyft.com",
+    "port": 443,
+    "connected_ip": "35.206.125.188",
+    "verified": true,
+    "verify_error": null,
+    "verify_code": null,
+    "certificate_read": true,
+    "subject": {
+      "common_name": "eshyft.com",
+      "organization": null
+    },
+    "issuer": {
+      "common_name": "YR1",
+      "organization": "Let's Encrypt"
+    },
+    "not_before": "2026-09-18T11:06:20Z",
+    "not_after": "2026-12-17T11:06:19Z",
+    "days_until_expiry": 34,
+    "expired": false,
+    "not_yet_valid": false,
+    "san": [
+      "eshyft.com",
+      "www.eshyft.com"
+    ],
+    "san_count": 2,
+    "covers_host": true,
+    "sibling_host": "www.eshyft.com",
+    "covers_sibling": true,
+    "protocol": "TLSv1.3",
+    "cipher": "TLS_AES_256_GCM_SHA384",
+    "cipher_bits": 256
+  },
+  "headers": {
+    "url": "https://eshyft.com/",
+    "status": 200,
+    "https": true,
+    "hsts": {
+      "present": false,
+      "value": null,
+      "max_age": null,
+      "include_subdomains": false,
+      "preload": false,
+      "meets_preload_requirements": false,
+      "preload_gaps": [
+        "No Strict-Transport-Security header."
+      ],
+      "preload_scope_note": "Covers the header directives, the certificate and the same-host HTTP redirect when those sections ran. Not checked: that every subdomain serves HTTPS, and that this host is the registrable domain the preload list requires.",
+      "issues": [
+        "Strict-Transport-Security was not sent."
+      ]
+    },
+    "csp": {
+      "present": false,
+      "report_only": false,
+      "policies": 0,
+      "issues": [
+        "Content-Security-Policy was not sent."
+      ]
+    },
+    "x_content_type_options": {
+      "present": false,
+      "value": null,
+      "ok": false
+    },
+    "framing": {
+      "x_frame_options": null,
+      "frame_ancestors": false,
+      "ok": false
+    },
+    "referrer_policy": {
+      "present": false,
+      "value": null,
+      "ok": false
+    },
+    "permissions_policy": {
+      "present": false,
+      "feature_policy_present": false
+    },
+    "cookies": []
+  },
+  "redirects": {
+    "http_to_https": {
+      "checked_url": "http://eshyft.com/",
+      "redirects_to_https": true,
+      "one_hop": true,
+      "first_hop_status": 301,
+      "first_hop_target": "https://eshyft.com/",
+      "first_hop_same_host": true,
+      "permanent": true,
+      "hops": 1,
+      "final_url": "https://eshyft.com/",
+      "error": null
+    },
+    "www": {
+      "host": "eshyft.com",
+      "sibling_host": "www.eshyft.com",
+      "host_final_url": "https://eshyft.com/",
+      "sibling_final_url": "https://eshyft.com/",
+      "sibling_resolves": true,
+      "sibling_tls_error": false,
+      "same_final_url": true,
+      "error": null
+    }
+  },
+  "findings": [
+    {
+      "id": "hsts-missing",
+      "severity": "Medium",
+      "message": "The HTTPS response does not send a Strict-Transport-Security header.",
+      "evidence": {}
+    },
+    {
+      "id": "csp-missing",
+      "severity": "Low",
+      "message": "No Content-Security-Policy header is sent.",
+      "evidence": {}
+    },
+    {
+      "id": "nosniff-missing",
+      "severity": "Low",
+      "message": "X-Content-Type-Options is not set to nosniff.",
+      "evidence": {
+        "value": null
+      }
+    },
+    {
+      "id": "clickjacking-protection-missing",
+      "severity": "Low",
+      "message": "Neither X-Frame-Options nor a CSP frame-ancestors directive limits framing of the page.",
+      "evidence": {
+        "x_frame_options": null
+      }
+    },
+    {
+      "id": "referrer-policy-missing",
+      "severity": "Info",
+      "message": "No Referrer-Policy header is sent, so the browser default applies.",
+      "evidence": {}
+    },
+    {
+      "id": "permissions-policy-missing",
+      "severity": "Info",
+      "message": "No Permissions-Policy header is sent.",
+      "evidence": {}
+    }
+  ],
+  "summary": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 1,
+    "Low": 3,
+    "Info": 2,
+    "total": 6
+  }
+}
