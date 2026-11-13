@@ -116,13 +116,15 @@ I pulled the actual Google results page for the 10 biggest nurse searches above.
 | Site | Estimated Google visits per month (US) | Searches it shows up for |
 |---|---|---|
 | **Nursa** | **~490,000** | ~237,000 |
+| Clipboard Health* | ~45,000–57,000 | ~22,000–38,000 |
 | ShiftMed | ~30,000 | ~11,800 |
 | ShiftKey | ~24,000 | ~1,300 |
 | CareRev | ~24,000 | ~17,600 |
 | IntelyCare | ~7,800 | ~1,500 |
 | **ESHYFT** | **~5,500** | ~2,800 |
-| Clipboard Health | ~2,400 | ~300 |
 | connectRN | ~1,700 | ~800 |
+
+\* Clipboard Health moved its website from clipboardhealth.com to clipboard.com during 2026, and the traffic data hasn't caught up with the new address yet. The figures shown are for the old address from June 2025 to March 2026, before the move. Its traffic was likely similar or higher after the move, so ESHYFT's gap with it is roughly 10 times.
 
 Nursa gets roughly **90 times** ESHYFT's Google traffic. Most of it comes from one idea: **a separate page for every healthcare facility where Nursa has shifts.** Someone searching for "Maimonides Medical Center" or "Denton State Supported Living Center" (often a nurse checking out a place to work) lands on Nursa's page about that facility, which shows its open shifts. Thousands of these pages each bring a little traffic, and together they add up to most of Nursa's visits. Its homepage and blog are a small share.
 
@@ -183,7 +185,7 @@ sitemap_index.xml ──► 6 child sitemaps ──► 325 URLs ──► polite
 - **Claude SEO** is a Claude Code plugin. I ran its deterministic Python checkers on representative templates: homepage, nurse landing page, facility landing page, an article, a tag archive and a date archive. I also ran its site-level checkers for TLS, security headers, AI-crawler access and sitemap health, plus its content-quality scorer on a sample of 8 articles.
 - **Lighthouse** gave lab performance scores. The PageSpeed Insights API was over quota, so I ran Lighthouse locally with mobile emulation.
 
-- **DataForSEO** is the paid data service that OpenSEO and Claude SEO both use for search data. I used it for monthly search counts, the searches eshyft.com and its competitors rank for, the live Google results for 10 nurse searches, and answers from ChatGPT, Perplexity, Claude and Gemini to 6 questions. The whole pull cost $0.91.
+- **DataForSEO** is the paid data service that OpenSEO and Claude SEO both use for search data. I used it for monthly search counts, the searches eshyft.com and its competitors rank for, the live Google results for 10 nurse searches, and answers from ChatGPT, Perplexity, Claude and Gemini to 6 questions. The whole pull cost about $1.05.
 
 **Not in scope:** backlinks (other sites linking to ESHYFT), and ESHYFT's own Google Search Console data, which is internal. With Search Console access, the next step would be to rank the fixes below by real clicks.
 
