@@ -1,19 +1,25 @@
 question,assistant,eshyft_mentioned,eshyft_order_of_mention,apps_in_order_of_mention,date
 What are the best apps for CNAs to pick up per diem shifts?,"ChatGPT (gpt-5.4-mini, web search on)",False,,Clipboard > Nursa > ShiftKey > IntelyCare > CareRev > ShiftMed,2026-11-12
 What are the best apps for CNAs to pick up per diem shifts?,"Claude (claude-sonnet-5-5, web search on)",True,7,Clipboard > ShiftKey > IntelyCare > ShiftMed > Nursa > CareRev > ESHYFT > NurseIO > StaffDNA,2026-11-12
+What are the best apps for CNAs to pick up per diem shifts?,"Gemini (gemini-3.5-flash, web search on)",True,3,IntelyCare > ShiftMed > ESHYFT > ShiftKey > Clipboard > Nursa > CareRev > Medely > NurseIO,2026-11-12
 What are the best apps for CNAs to pick up per diem shifts?,Perplexity (sonar),True,1,ESHYFT > ShiftMed > CareRev > NurseIO > Nursa,2026-11-12
 Which apps let LPNs pick up PRN shifts at nursing homes?,"ChatGPT (gpt-5.4-mini, web search on)",False,,IntelyCare > connectRN > ShiftMed,2026-11-12
 Which apps let LPNs pick up PRN shifts at nursing homes?,"Claude (claude-sonnet-5-5, web search on)",True,1,ESHYFT > Nursa > ShiftKey > NurseIO > Switch > IntelyCare > CareRev,2026-11-12
+Which apps let LPNs pick up PRN shifts at nursing homes?,"Gemini (gemini-3.5-flash, web search on)",True,6,ShiftMed > ShiftKey > IntelyCare > Clipboard > Nursa > ESHYFT > NurseIO,2026-11-12
 Which apps let LPNs pick up PRN shifts at nursing homes?,Perplexity (sonar),True,2,Nursa > ESHYFT > ShiftMed > NurseIO > IntelyCare > connectRN > Switch,2026-11-12
 I'm a CNA in Pennsylvania looking for flexible per diem work at nursing homes. What apps should I try?,"ChatGPT (gpt-5.4-mini, web search on)",True,3,Clipboard > ShiftKey > ESHYFT > ShiftMed > Nursa > Switch,2026-11-12
 I'm a CNA in Pennsylvania looking for flexible per diem work at nursing homes. What apps should I try?,"Claude (claude-sonnet-5-5, web search on)",True,1,ESHYFT > Nursa > ShiftMed,2026-11-12
+I'm a CNA in Pennsylvania looking for flexible per diem work at nursing homes. What apps should I try?,"Gemini (gemini-3.5-flash, web search on)",True,3,IntelyCare > ShiftMed > ESHYFT > ShiftKey > Clipboard > Nursa,2026-11-12
 I'm a CNA in Pennsylvania looking for flexible per diem work at nursing homes. What apps should I try?,Perplexity (sonar),True,3,IntelyCare > connectRN > ESHYFT > ShiftMed > Nursa,2026-11-12
 What are good alternatives to ShiftKey for nurses?,"ChatGPT (gpt-5.4-mini, web search on)",False,,ShiftKey > Nursa > ShiftMed,2026-11-12
 What are good alternatives to ShiftKey for nurses?,"Claude (claude-sonnet-5-5, web search on)",True,8,ShiftKey > Nursa > Clipboard > CareRev > connectRN > IntelyCare > ShiftMed > ESHYFT > Vivian > Medely,2026-11-12
+What are good alternatives to ShiftKey for nurses?,"Gemini (gemini-3.5-flash, web search on)",True,8,ShiftKey > Clipboard > Nursa > CareRev > Switch > IntelyCare > ShiftMed > ESHYFT > Medely > StaffDNA,2026-11-12
 What are good alternatives to ShiftKey for nurses?,Perplexity (sonar),False,,ShiftKey > Clipboard > CareRev > IntelyCare > Nursa > Medely > ShiftMed > Kare > connectRN > Trusted > Vivian,2026-11-12
 What are the best per diem staffing apps for nursing homes to fill CNA and LPN shifts?,"ChatGPT (gpt-5.4-mini, web search on)",True,7,Nursa > ShiftKey > Switch > Clipboard > StaffDNA > ShiftMed > ESHYFT,2026-11-12
 What are the best per diem staffing apps for nursing homes to fill CNA and LPN shifts?,"Claude (claude-sonnet-5-5, web search on)",True,5,Nursa > StaffDNA > Clipboard > ShiftKey > ESHYFT > IntelyCare > ShiftMed > CareRev > Vivian,2026-11-12
+What are the best per diem staffing apps for nursing homes to fill CNA and LPN shifts?,"Gemini (gemini-3.5-flash, web search on)",True,5,ShiftMed > IntelyCare > ShiftKey > Clipboard > ESHYFT > Nursa,2026-11-12
 What are the best per diem staffing apps for nursing homes to fill CNA and LPN shifts?,Perplexity (sonar),True,4,Clipboard > Nursa > ShiftKey > ESHYFT > IntelyCare > Kare > NurseIO,2026-11-12
 Is ESHYFT a good app for CNAs?,"ChatGPT (gpt-5.4-mini, web search on)",True,1,ESHYFT > ShiftKey > Clipboard,2026-11-12
 Is ESHYFT a good app for CNAs?,"Claude (claude-sonnet-5-5, web search on)",True,1,ESHYFT,2026-11-12
+Is ESHYFT a good app for CNAs?,"Gemini (gemini-3.5-flash, web search on)",True,1,ESHYFT > Clipboard > ShiftMed > ShiftKey,2026-11-12
 Is ESHYFT a good app for CNAs?,Perplexity (sonar),True,1,ESHYFT,2026-11-12

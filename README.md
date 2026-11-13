@@ -10,7 +10,7 @@ An independent audit of the public marketing site and blog of ESHYFT, a per diem
 
 The site has good foundations: Yoast is set up correctly, every page has valid structured data, AI crawlers can read everything, and there is a large library of 166 articles. But Google mostly sends people who already know the name, and the site's problems are about upkeep, not the platform:
 
-1. **Search brings in people who already know ESHYFT, not new nurses.** About 84% of the site's estimated 5,200 monthly Google visits come from searches for "eshyft" itself (the login, the phone number). Meanwhile, nurses search for jobs in huge numbers ("CNA jobs near me" alone gets 135,000 searches a month in the US), and ESHYFT isn't on Google's first page for any of these job searches. In AI assistants, ChatGPT named ESHYFT in only 2 of 5 questions about per diem apps. See [What people search for](#what-people-search-for-and-where-eshyft-shows-up).
+1. **Search brings in people who already know ESHYFT, not new nurses.** About 84% of the site's estimated 5,200 monthly Google visits come from searches for "eshyft" itself (the login, the phone number). Meanwhile, nurses search for jobs in huge numbers ("CNA jobs near me" alone gets 135,000 searches a month in the US), and ESHYFT isn't on Google's first page for any of these job searches. Nursa, a direct competitor, gets about 90 times as many Google visits. In AI assistants, ChatGPT named ESHYFT in only 2 of 5 questions about per diem apps. See [What people search for](#what-people-search-for-and-where-eshyft-shows-up).
 2. **The money pages don't describe themselves.** The homepage `<title>` is "Home - ESHYFT", and the homepage, `/nurses/` and `/facilities/` all have no meta description. `/nurses/` has no H1. These pages carry both of the site's audiences.
 3. **The index is full of pages that shouldn't be there.** 25 sitemap pages have no internal links pointing to them. They include test copies (`/nurses-2/`, `/facilities-v2/`, `/schedule-a-demo-test/`), post-conversion pages (`/thank-you-for-requesting-a-demo/`, `/already_applied/`) and utility forms (`/unsubscribe/`, `/missed-timecard-punch-form/`). There are also 100 thin tag archives.
 4. **Mobile performance is the biggest technical gap.** Lighthouse mobile performance scores 43–49. Largest Contentful Paint (LCP) is 7.6–24.6 s, about 4 MB per page, and the LCP image is lazy-loaded on the homepage and on articles.
@@ -111,36 +111,55 @@ I pulled the actual Google results page for the 10 biggest nurse searches above.
 - **Google puts its own jobs box at the very top** for 8 of the 10 searches, above all the regular results. Companies get in that box by marking up their openings as job listings so Google can read them. **Nursa, a direct competitor, posted more of the listings shown there than anyone else** (9 of the 24 visible), labelled "via Nursa". ESHYFT has none.
 - **For app searches, nurses' own conversations win.** For "CNA shift app" and "nurse staffing app", the top results are App Store pages, Reddit threads (r/cna, r/TravelNursing) and Facebook groups. ESHYFT's homepage is #8 for "nurse staffing app". Google's AI summary at the top of "CNA shift app" lists ESHYFT third among "Top CNA Shift Apps", after ShiftMed and ShiftKey, and it got that from ESHYFT's App Store listing.
 
+### How much Google traffic competitors get
+
+| Site | Estimated Google visits per month (US) | Searches it shows up for |
+|---|---|---|
+| **Nursa** | **~490,000** | ~237,000 |
+| ShiftMed | ~30,000 | ~11,800 |
+| ShiftKey | ~24,000 | ~1,300 |
+| CareRev | ~24,000 | ~17,600 |
+| IntelyCare | ~7,800 | ~1,500 |
+| **ESHYFT** | **~5,500** | ~2,800 |
+| Clipboard Health | ~2,400 | ~300 |
+| connectRN | ~1,700 | ~800 |
+
+Nursa gets roughly **90 times** ESHYFT's Google traffic. Most of it comes from one idea: **a separate page for every healthcare facility where Nursa has shifts.** Someone searching for "Maimonides Medical Center" or "Denton State Supported Living Center" (often a nurse checking out a place to work) lands on Nursa's page about that facility, which shows its open shifts. Thousands of these pages each bring a little traffic, and together they add up to most of Nursa's visits. Its homepage and blog are a small share.
+
+ESHYFT works with long-term care facilities that nurses search for by name in the same way. Facility pages could work for ESHYFT too, but only with each facility's agreement, since it publicly names them as a client.
+
 ### What AI assistants say
 
-More nurses now ask ChatGPT or Perplexity instead of searching Google. I asked three AI assistants (all with web search turned on) the same 6 questions a nurse or facility manager might ask, and recorded which apps they named.
+More nurses now ask ChatGPT or Perplexity instead of searching Google. I asked four AI assistants (all with web search turned on) the same 6 questions a nurse or facility manager might ask, and recorded which apps they named.
 
-| Question | ChatGPT | Perplexity | Claude |
-|---|---|---|---|
-| What are the best apps for CNAs to pick up per diem shifts? | Not named | **Named 1st** | Named 7th of 9 |
-| Which apps let LPNs pick up PRN shifts at nursing homes? | Not named | Named 2nd | **Named 1st** |
-| I'm a CNA in Pennsylvania looking for per diem work at nursing homes. What apps should I try? | Named 3rd | Named 3rd | **Named 1st** |
-| What are good alternatives to ShiftKey for nurses? | Not named | Not named | Named 8th of 10 |
-| What are the best per diem staffing apps for nursing homes to fill CNA and LPN shifts? | Named last (7th) | Named 4th | Named 5th |
-| **ESHYFT named in the 5 general questions** | **2 of 5** | **4 of 5** | **5 of 5** |
+| Question | ChatGPT | Perplexity | Claude | Gemini |
+|---|---|---|---|---|
+| What are the best apps for CNAs to pick up per diem shifts? | Not named | **Named 1st** | Named 7th of 9 | Named 3rd of 9 |
+| Which apps let LPNs pick up PRN shifts at nursing homes? | Not named | Named 2nd | **Named 1st** | Named 6th of 7 |
+| I'm a CNA in Pennsylvania looking for per diem work at nursing homes. What apps should I try? | Named 3rd | Named 3rd | **Named 1st** | Named 3rd |
+| What are good alternatives to ShiftKey for nurses? | Not named | Not named | Named 8th of 10 | Named 8th of 10 |
+| What are the best per diem staffing apps for nursing homes to fill CNA and LPN shifts? | Named last (7th) | Named 4th | Named 5th | Named 5th of 6 |
+| **ESHYFT named in the 5 general questions** | **2 of 5** | **4 of 5** | **5 of 5** | **5 of 5** |
 
 "Named 1st" means ESHYFT was the first app mentioned in the answer. AI answers change from one run to the next, so treat this as a snapshot from November 12, 2026.
 
 What stands out:
 
+- **Gemini always includes ESHYFT, but rarely near the top.** That matters because Gemini also writes the AI summaries Google shows above its search results. It usually lists ShiftMed, IntelyCare, ShiftKey and Clipboard first.
 - **ChatGPT, the most widely used assistant, usually leaves ESHYFT out.** Its answers lean on "best apps for nurses" roundup articles, and several of those are written by competitors: Nursa's blog, Clipboard's site, plus comparison sites like StaffDNA and Switch. ESHYFT isn't in those roundups, so it isn't in the answer.
-- **ESHYFT's App Store listing is its most-used source.** All three assistants cited apps.apple.com when they described ESHYFT. The listing is effectively ESHYFT's profile in AI answers.
-- **When asked about ESHYFT directly**, all three said it's a reasonable choice for flexible long-term care shifts, and all three mentioned mixed reviews. Perplexity pointed out the gap between the App Store rating (4.7) and the Google Play rating (3.9). Reviews are now part of what AI tells nurses about the company.
+- **ESHYFT's App Store listing is its most-used source.** ChatGPT, Perplexity and Claude all cited apps.apple.com when they described ESHYFT. The listing is effectively ESHYFT's profile in AI answers.
+- **When asked about ESHYFT directly**, all four said it's a reasonable choice for flexible long-term care shifts, and all of them mentioned reviews. Gemini also stated specific facts about how ESHYFT employs and pays nurses. AI tools will describe the company in detail either way, so ESHYFT's own site and app listings need to state these facts clearly and accurately. Perplexity pointed out the gap between the App Store rating (4.7) and the Google Play rating (3.9). Reviews are now part of what AI tells nurses about the company.
 - **ESHYFT is never named as an alternative to ShiftKey** by ChatGPT or Perplexity, even though that's exactly the comparison a nurse switching apps would ask about.
 
 ### What this changes
 
-Two new priorities move near the top of the [roadmap](#prioritized-roadmap):
+Three new priorities move near the top of the [roadmap](#prioritized-roadmap):
 
 1. **Get ESHYFT's open shifts into Google's jobs box** (#5). Publish open shifts, or standing openings by role and area, as job listings Google can read, the way Nursa does, and feed them to Indeed and ZipRecruiter. That's the only realistic way onto page 1 for the six-figure job searches. Location pages for each state and city help these listings, but on their own they won't beat ZipRecruiter.
-2. **Get ESHYFT into the sources AI assistants read** (#6). Ask to be added to the "best apps for CNAs" roundups that ChatGPT relies on. Publish ESHYFT's own honest comparison page ("ESHYFT vs ShiftKey vs Nursa"). Keep the App Store and Google Play listings complete and current, and work on the Google Play rating.
+2. **Build a page for each partner facility** (part of #5), with the facility's agreement, showing its open shifts. This is how Nursa gets most of its Google traffic.
+3. **Get ESHYFT into the sources AI assistants read** (#6). Ask to be added to the "best apps for CNAs" roundups that ChatGPT relies on. Publish ESHYFT's own honest comparison page ("ESHYFT vs ShiftKey vs Nursa"). Keep the App Store and Google Play listings complete and current, and work on the Google Play rating.
 
-Raw data: [`data/search-demand.csv`](data/search-demand.csv), [`data/google-rankings-eshyft.csv`](data/google-rankings-eshyft.csv), [`data/google-top10-nurse-searches.csv`](data/google-top10-nurse-searches.csv), [`data/ai-assistant-answers.csv`](data/ai-assistant-answers.csv).
+Raw data: [`data/search-demand.csv`](data/search-demand.csv), [`data/google-rankings-eshyft.csv`](data/google-rankings-eshyft.csv), [`data/google-top10-nurse-searches.csv`](data/google-top10-nurse-searches.csv), [`data/ai-assistant-answers.csv`](data/ai-assistant-answers.csv), [`data/competitor-google-traffic.csv`](data/competitor-google-traffic.csv).
 
 ---
 
@@ -164,7 +183,7 @@ sitemap_index.xml ──► 6 child sitemaps ──► 325 URLs ──► polite
 - **Claude SEO** is a Claude Code plugin. I ran its deterministic Python checkers on representative templates: homepage, nurse landing page, facility landing page, an article, a tag archive and a date archive. I also ran its site-level checkers for TLS, security headers, AI-crawler access and sitemap health, plus its content-quality scorer on a sample of 8 articles.
 - **Lighthouse** gave lab performance scores. The PageSpeed Insights API was over quota, so I ran Lighthouse locally with mobile emulation.
 
-- **DataForSEO** is the paid data service that OpenSEO and Claude SEO both use for search data. I used it for monthly search counts, the searches eshyft.com currently ranks for, the live Google results for 10 nurse searches, and answers from ChatGPT, Perplexity and Claude to 6 questions. The whole pull cost $0.67.
+- **DataForSEO** is the paid data service that OpenSEO and Claude SEO both use for search data. I used it for monthly search counts, the searches eshyft.com and its competitors rank for, the live Google results for 10 nurse searches, and answers from ChatGPT, Perplexity, Claude and Gemini to 6 questions. The whole pull cost $0.91.
 
 **Not in scope:** backlinks (other sites linking to ESHYFT), and ESHYFT's own Google Search Console data, which is internal. With Search Console access, the next step would be to rank the fixes below by real clicks.
 
@@ -183,7 +202,7 @@ All raw output is in [`data/`](data/).
 | Internal linking | **C** | 111 sitemap URLs have no internal links pointing to them. 6 article links return 404. Sitewide links point to author pages that redirect to the homepage. |
 | Content and E-E-A-T | **C+** | A large, mostly solid library (quality scores 68–83 of 100), but output has collapsed in 2026, one post is out of date, and authors are first-name-only with no author pages. |
 | Performance (mobile) | **D** | Performance 43–49, LCP 7.6–24.6 s, Total Blocking Time (TBT) 600–710 ms, 3.9–5.3 MB per page. CLS is fine. |
-| AI search visibility | **C** | Technically ready: all AI crawlers are allowed and content is server-rendered. But ChatGPT named ESHYFT in only 2 of 5 questions about per diem apps (Perplexity 4 of 5, Claude 5 of 5), because ESHYFT is missing from the roundup articles AI relies on. |
+| AI search visibility | **C** | Technically ready: all AI crawlers are allowed and content is server-rendered. But ChatGPT named ESHYFT in only 2 of 5 questions about per diem apps (Perplexity 4 of 5, Claude and Gemini 5 of 5, though Gemini rarely near the top), because ESHYFT is missing from the roundup articles AI relies on. |
 
 ---
 
@@ -278,7 +297,7 @@ Ranked by expected impact relative to effort. "Owner" is the type of skill neede
 | 2 | Set tag archives, testimonials and Jet Menu to `noindex` and remove them from the sitemap (Yoast → Search Appearance). | High | XS | Marketing (Yoast) |
 | 3 | `noindex` or delete the test, duplicate, thank-you and utility pages listed above. 301-redirect the duplicate posts to the stronger version. | High | S | Marketing |
 | 4 | Remove `loading="lazy"` from the first and hero image on templates, and add `fetchpriority="high"`. | High | S | Web dev |
-| 5 | **Get open shifts into Google's jobs box and job boards.** Publish open shifts (or standing openings by role and area) as job listings Google can read, and feed them to Indeed and ZipRecruiter. Back them with state and city pages for nurses ("per diem CNA jobs in [state]") that have real local details. | **Highest** | M–L | PM + Web dev + Content |
+| 5 | **Get open shifts into Google's jobs box and job boards.** Publish open shifts (or standing openings by role and area) as job listings Google can read, and feed them to Indeed and ZipRecruiter. Back them with a page per partner facility (with the facility's agreement), the approach behind most of Nursa's ~490,000 monthly Google visits, plus state and city pages with real local details. | **Highest** | M–L | PM + Web dev + Content |
 | 6 | **Get into the sources AI assistants read.** Pitch the "best apps for CNAs" roundups, publish an honest ESHYFT vs ShiftKey vs Nursa comparison page, keep both app store listings complete, and work on the Google Play rating. | High | M | Marketing + Product |
 | 7 | Update or redirect the out-of-date CMS staffing post. Add a "last reviewed" date and a clinical reviewer to regulatory and licensing posts. | High (trust) | S | Content |
 | 8 | Fix the 6 broken links and the 6 links missing a trailing slash. Move `/tos.html` and `/pp.html` into WordPress or canonicalize them. | Medium | XS | Marketing |
